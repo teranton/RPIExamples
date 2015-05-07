@@ -2,6 +2,6 @@
 
 int main(int argc, char *argv[]) {
 	printEnvironment();
-	//printEnvironment("HOME");
+	printEnvironment1("HOME");
 	return 0;
 }
