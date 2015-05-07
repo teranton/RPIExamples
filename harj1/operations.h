@@ -1,0 +1,1 @@
+int printEnvironment(void);
