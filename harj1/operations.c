@@ -16,7 +16,7 @@ int printEnvironment(void){
 int printEnvironment1(char* env){
     if(env){
         if(getenv(env)){
-            printf("env is %s\n", getenv(env));
+            printf("%s is %s\n",env, getenv(env));
             return 0;
         }
     }
